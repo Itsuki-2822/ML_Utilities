@@ -1,27 +1,45 @@
 # ML_Utilities
-このリポジトリは筆者が作成したML関係の関数を保存しておくリポジトリである。
+このリポジトリは、筆者が作成した機械学習関連の関数を保存するためのものです。
 
-以下はこのリポジトリの`util`ディレクトリのみを使用者のワークスペースにクローンする方法について手順を明記したものである。
+以下の手順では、リポジトリから`util`ディレクトリのみをクローンする方法を説明します。
 
-## How to
-#### クローン先のワークスペースに移動
-  
-`cd path/to/your_work_directory`
+## 手順
 
-#### temp_cloneに筆者のリポジトリの util フォルダをスパースチェックアウトでクローンする
+1. **クローン先のワークスペースに移動する**
 
-`git clone --filter=blob:none --sparse https://github.com/Itsuki-2822/ML_Utilities.git temp_clone`
+    ```sh
+    cd path/to/your_work_directory
+    ```
 
-`cd temp_clone`
+2. **スパースチェックアウトでリポジトリを一時的にクローンする**
 
-`git sparse-checkout set util`
+    ```sh
+    git clone --filter=blob:none --sparse https://github.com/Itsuki-2822/ML_Utilities.git temp_clone
+    ```
 
-#### util フォルダを自分のワークスペースにコピーする
+3. **クローンしたリポジトリに移動する**
 
-`cp -r util ../`
+    ```sh
+    cd temp_clone
+    ```
 
-#### temp_cloneを削除する
+4. **`util`フォルダのみをスパースチェックアウトで取得する**
 
-`cd ..`
+    ```sh
+    git sparse-checkout set util
+    ```
 
-`rm -rf temp_clone`
+5. **`util`フォルダを自分のワークスペースにコピーする**
+
+    ```sh
+    cp -r util ../
+    ```
+
+6. **一時的にクローンしたリポジトリを削除する**
+
+    ```sh
+    cd ..
+    rm -rf temp_clone
+    ```
+
+以上の手順で、`ML_Utilities`リポジトリの`util`ディレクトリのみをクローンして、ワークスペースにコピーすることができます。
