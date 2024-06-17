@@ -64,3 +64,26 @@ By following these steps, you can clone only the `util` directory from the `ML_U
 
 
 ## 更新を反映させる手順 / Steps to Update
+
+`util`関数が更新されたときに、その更新をあなたのワークスペースに反映させる手順を説明します。
+
+The following steps explain how to update your workspace when the `util` functions are updated.
+
+### 初回のみ行う手順 / One-Time Setup
+
+1. **スクリプトを実行可能にする**
+
+   **Make the script executable**
+
+    ```sh
+    chmod +x util/update_util.sh
+    ```
+
+### 更新手順 / Update Steps
+
+`util`関数の更新を反映させるために、以下のコマンドを実行します。
+
+To apply updates to the `util` functions, run the following command:
+
+```sh
+./util/update_util.sh
