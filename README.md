@@ -3,9 +3,17 @@
 
 This repository is for storing machine learning-related functions created by the author.
 
-以下の手順では、リポジトリから`util`ディレクトリのみをクローンする方法と、`util`関数が更新されたときにその更新をあなたのワークスペースに反映させる手順を説明します。
+ここでは以下の2点について説明します：
 
-The following steps explain how to clone only the `util` directory from the repository and how to update your workspace when the `util` functions are updated.
+This document explains the following two points:
+
+- **リポジトリから`util`ディレクトリのみをクローンする方法**
+
+  **How to clone only the `util` directory from the repository**
+  
+- **`util`関数が更新されたときにその更新をあなたのワークスペースに反映させる方法**
+
+  **How to update your workspace when the `util` functions are updated**
 
 ## ディレクトリを追加する手順 / Steps to Add a Directory
 
@@ -64,10 +72,9 @@ By following these steps, you can clone only the `util` directory from the `ML_U
 
 
 ## 更新を反映させる手順 / Steps to Update
+更新の反映はスクリプトファイルを用いて行います。ですが、ここではスクリプトファイルについての詳しい説明は省きます。
 
-`util`関数が更新されたときに、その更新をあなたのワークスペースに反映させる手順を説明します。
-
-The following steps explain how to update your workspace when the `util` functions are updated.
+The updates are applied using a script file. However, a detailed explanation of the script file is omitted here.
 
 ### 初回のみ行う手順 / One-Time Setup
 
@@ -87,3 +94,8 @@ To apply updates to the `util` functions, run the following command:
 
 ```sh
 ./util/update_util.sh
+```
+
+以上の手順で、ML_Utilitiesリポジトリのutilディレクトリの更新を、ワークスペースに反映させることができます。
+
+By following these steps,The updates applied.
