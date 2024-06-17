@@ -3,11 +3,11 @@
 
 This repository is for storing machine learning-related functions created by the author.
 
-以下の手順では、リポジトリから`util`ディレクトリのみをクローンする方法を説明します。
+以下の手順では、リポジトリから`util`ディレクトリのみをクローンする方法と、`util`関数が更新されたときにその更新をあなたのワークスペースに反映させる手順を説明します。
 
-The following steps explain how to clone only the `util` directory from the repository.
+The following steps explain how to clone only the `util` directory from the repository and how to update your workspace when the `util` functions are updated.
 
-## 手順 / Steps
+## ディレクトリを追加する手順 / Steps to Add a Directory
 
 1. **クローン先のワークスペースに移動する**
    
@@ -61,3 +61,6 @@ The following steps explain how to clone only the `util` directory from the repo
 以上の手順で、`ML_Utilities`リポジトリの`util`ディレクトリのみをクローンして、ワークスペースにコピーすることができます。
 
 By following these steps, you can clone only the `util` directory from the `ML_Utilities` repository and copy it to your workspace.
+
+
+## 更新を反映させる手順 / Steps to Update
