@@ -22,10 +22,3 @@ cp -r util "$CURRENT_DIR/"
 # 一時ディレクトリの削除
 cd "$CURRENT_DIR"
 rm -rf ../temp_clone
-
-# 更新内容のコミットとプッシュ
-git add util
-git commit -m "Updated util folder from https://github.com/Itsuki-2822/ML_Utilities.git repository"
-git push origin main
-
-echo "util directory has been updated and changes are pushed."
