@@ -7,13 +7,13 @@ This repository is for storing machine learning-related functions created by the
 
 This document explains the following two points:
 
-- **リポジトリから`util`ディレクトリのみをクローンする方法**
+- **リポジトリから`utils`ディレクトリのみをクローンする方法**
 
-  **How to clone only the `util` directory from the repository**
+  **How to clone only the `utils` directory from the repository**
   
 - **`util`関数が更新されたときにその更新をあなたのワークスペースに反映させる方法**
 
-  **How to update your workspace when the `util` functions are updated**
+  **How to update your workspace when the `utils` functions are updated**
 
 ## ディレクトリを追加する手順 / Steps to Add a Directory
 
@@ -41,20 +41,20 @@ This document explains the following two points:
     cd temp_clone
     ```
 
-4. **`util`フォルダのみをスパースチェックアウトで取得する**
+4. **`utils`フォルダのみをスパースチェックアウトで取得する**
    
-   **Get only the `util` folder with sparse checkout**
+   **Get only the `utils` folder with sparse checkout**
 
     ```sh
-    git sparse-checkout set util
+    git sparse-checkout set utils
     ```
 
-5. **`util`フォルダを自分のワークスペースにコピーする**
+5. **`utils`フォルダを自分のワークスペースにコピーする**
    
-   **Copy the `util` folder to your workspace**
+   **Copy the `utils` folder to your workspace**
 
     ```sh
-    cp -r util ../
+    cp -r utils ../
     ```
 
 6. **一時的にクローンしたリポジトリを削除する**
@@ -66,9 +66,9 @@ This document explains the following two points:
     rm -rf temp_clone
     ```
 
-以上の手順で、`ML_Utilities`リポジトリの`util`ディレクトリのみをクローンして、ワークスペースにコピーすることができます。
+以上の手順で、`ML_Utilities`リポジトリの`utils`ディレクトリのみをクローンして、ワークスペースにコピーすることができます。
 
-By following these steps, you can clone only the `util` directory from the `ML_Utilities` repository and copy it to your workspace.
+By following these steps, you can clone only the `utils` directory from the `ML_Utilities` repository and copy it to your workspace.
 
 
 ## 更新を反映させる手順 / Steps to Update
@@ -88,14 +88,14 @@ The updates are applied using a script file. However, a detailed explanation of 
 
 ### 更新手順 / Update Steps
 
-`util`関数の更新を反映させるために、以下のコマンドを実行します。
+`utils`の更新を反映させるために、以下のコマンドを実行します。
 
-To apply updates to the `util` functions, run the following command:
+To apply updates to the `utils` functions, run the following command:
 
 ```sh
-./util/update_util.sh
+./utils/update_util.sh
 ```
 
-以上の手順で、ML_Utilitiesリポジトリのutilディレクトリの更新を、ワークスペースに反映させることができます。
+以上の手順で、ML_Utilitiesリポジトリのutilsディレクトリの更新を、ワークスペースに反映させることができます。
 
 By following these steps,The updates applied.
