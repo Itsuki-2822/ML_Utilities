@@ -13,11 +13,11 @@ git remote add origin https://github.com/Itsuki-2822/ML_Utilities.git
 
 # スパースチェックアウトの設定とpull
 git sparse-checkout init --cone
-git sparse-checkout set util
+git sparse-checkout set utils
 git pull origin main
 
 # utilフォルダをコピー
-cp -r util "$CURRENT_DIR/"
+cp -r utils "$CURRENT_DIR/"
 
 # 一時ディレクトリの削除
 cd "$CURRENT_DIR"
