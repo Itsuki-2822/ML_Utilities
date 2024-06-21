@@ -157,5 +157,5 @@ class Adversarial_Validator:
         return predictions
 
 #lgb_classifier = AdversarialValidationLightGBMClassifier()
-#X, y = lgb_classifier.preprocess_data(df_train, df_test, exclude_columns=['id', 'match_date','attendance'])
+#X, y = lgb_classifier.preprocess_data(df_train, df_test, exclude_columns=False)
 #lgb_classifier.train_and_evaluate(X, y, validation = 'holdout',plot_feature_importance=True, plot_shap_summary=True)
