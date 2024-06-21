@@ -16,6 +16,7 @@ your_repository/
 │   ├── cyclical_encoding.py
 │   ├── find_significant_categories.py
 │   ├── Adversarial_Validator.py
+│   ├── FeatureImportanceVisualizer.py
 │   └── update_utils.sh
 │
 ├── scripts/
@@ -32,4 +33,5 @@ from compare_categorical_columns import compare_categorical_columns
 from cyclical_encoding import cyclical_encoding
 from find_significant_categories import find_significant_categories
 from Adversarial_Validator import Adversarial_Validator
+from FeatureImportanceVisualizer import FeatureImportanceVisualizer
 ```
