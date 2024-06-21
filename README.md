@@ -83,7 +83,7 @@ The updates are applied using a script file. However, a detailed explanation of 
    **Make the script executable**
 
     ```sh
-    chmod +x util/update_util.sh
+    chmod +x utils/update_utils.sh
     ```
 
 ### 更新手順 / Update Steps
@@ -93,7 +93,7 @@ The updates are applied using a script file. However, a detailed explanation of 
 To apply updates to the `utils` functions, run the following command:
 
 ```sh
-./utils/update_util.sh
+./utils/update_utils.sh
 ```
 
 以上の手順で、ML_Utilitiesリポジトリのutilsディレクトリの更新を、ワークスペースに反映させることができます。
