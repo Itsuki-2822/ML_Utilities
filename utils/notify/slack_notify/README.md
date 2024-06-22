@@ -1,6 +1,13 @@
 # How to use Slack_notify
 
-このREADMEではSlack APIを用いて、Slackに通知を送る方法を
+ここでは以下の2点について説明します：
+
+This document explains the following two points:
+
+- **Slack botのセットアップ**
+  
+- **Webhook URLを自分のPCの環境変数に設定し、クレデンシャルを漏洩させないようにする**
+
 
 ## Slack apiを用いた、Slack Botのセットアップ
 
