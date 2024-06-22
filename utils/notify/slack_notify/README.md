@@ -1,4 +1,6 @@
-# How to setup of Slack bot
+# How to use Slack_notify
+
+## Slack apiを用いた、Slack Botのセットアップ
 
 [Slack api](https://api.slack.com)にアクセス
 
