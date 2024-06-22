@@ -1,5 +1,7 @@
 # How to use Slack_notify
 
+このREADMEではSlack APIを用いて、Slackに通知を送る方法を
+
 ## Slack apiを用いた、Slack Botのセットアップ
 
 [Slack api](https://api.slack.com)にアクセス
