@@ -15,9 +15,9 @@ your_repository/
 │   │   ├── Mac_Send_Notification.py
 │   │   └── Windows_Send_Notification.py
 │   ├── PermutationFeatureSelector.py
-│   ├── compare_categorical_columns.py
-│   ├── cyclical_encoding.py
-│   ├── find_significant_categories.py
+│   ├── Compare_Categorical_Columns.py
+│   ├── Cyclical_Encoder.py
+│   ├── Find_Significant_Categories.py
 │   ├── Adversarial_Validator.py
 │   ├── FeatureImportanceVisualizer.py
 │   └── update_utils.sh
@@ -32,9 +32,9 @@ import sys
 sys.path.append('../utils')
 
 from PermutationFeatureSelector import PermutationFeatureSelector
-from compare_categorical_columns import compare_categorical_columns
-from cyclical_encoding import cyclical_encoding
-from find_significant_categories import find_significant_categories
+from Compare_Categorical_Columns import Compare_Categorical_Columns
+from Cyclical_Encoder import Cyclical_Encoder
+from Find_Significant_Categories import Find_Significant_Categories
 from Adversarial_Validator import Adversarial_Validator
 from FeatureImportanceVisualizer import FeatureImportanceVisualizer
 ```
