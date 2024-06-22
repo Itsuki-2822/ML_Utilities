@@ -8,4 +8,4 @@ def Windows_Send_Notification(title, message):
         timeout=10, 
     )
 
-#Windows_Send_Notification('実行完了', 'プログラムの実行が完了しました。')
+#Windows_Send_Notification('実行完了', 'プログラムの実行が完了しました')
