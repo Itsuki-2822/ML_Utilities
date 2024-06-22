@@ -11,6 +11,9 @@ First, make sure that your directory structure is as follows:
 your_repository/
 │
 ├── utils/
+│   ├── notify/
+│   │   ├── Mac_Send_Notification.py
+│   │   └── Windows_Send_Notification.py
 │   ├── PermutationFeatureSelector.py
 │   ├── compare_categorical_columns.py
 │   ├── cyclical_encoding.py
