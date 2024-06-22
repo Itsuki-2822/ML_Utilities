@@ -1,6 +1,6 @@
 import pandas as pd
 
-def compare_categorical_columns(df_train, df_test, exclude_columns=None, detail=False):
+def Compare_Categorical_Columns(df_train, df_test, exclude_columns=None, detail=False):
     exclude_columns = [] if exclude_columns is None else exclude_columns
 
     categorical_columns = df_train.select_dtypes(include='object').columns
@@ -51,5 +51,5 @@ def compare_categorical_columns(df_train, df_test, exclude_columns=None, detail=
     return summary_df, display_detailed_info
 
 
-#summary_df, display_detailed_info = analyze_category_differences(df_train, df_test, exclude_columns = False, detail=True)
+#summary_df, display_detailed_info = Compare_Categorical_Columns(df_train, df_test, exclude_columns = False, detail=True)
 #detail_df = display_detailed_info('home_team')

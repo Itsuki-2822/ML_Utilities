@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-def cyclical_encoding(df,col):
+def CyclicalEncoder(df,col):
     df['datetime'] = pd.to_datetime(df[col])
 
     df['year'] = df[col].dt.year

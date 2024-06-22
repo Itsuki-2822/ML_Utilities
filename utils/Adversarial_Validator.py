@@ -6,7 +6,7 @@ from sklearn.preprocessing import LabelEncoder
 import matplotlib.pyplot as plt
 import shap
 
-class Adversarial_Validator:
+class AdversarialValidator:
     def __init__(self, params=None, n_splits=5, random_state=28):
         if params is None:
             params = {
@@ -156,6 +156,6 @@ class Adversarial_Validator:
         predictions /= len(self.boosters)
         return predictions
 
-#lgb_classifier = AdversarialValidationLightGBMClassifier()
+#lgb_classifier = AdversarialValidator()
 #X, y = lgb_classifier.preprocess_data(df_train, df_test, exclude_columns=False)
 #lgb_classifier.train_and_evaluate(X, y, validation = 'holdout',plot_feature_importance=True, plot_shap_summary=True)

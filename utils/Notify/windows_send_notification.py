@@ -1,6 +1,6 @@
 from plyer import notification
 
-def windows_send_notification(title, message):
+def Windows_Send_Notification(title, message):
     notification.notify(
         title=title,
         message=message,
@@ -8,4 +8,4 @@ def windows_send_notification(title, message):
         timeout=10, 
     )
 
-#windows_send_notification('実行完了', 'プログラムの実行が完了しました。')
+#Windows_Send_Notification('実行完了', 'プログラムの実行が完了しました。')
