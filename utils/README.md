@@ -37,4 +37,6 @@ from Cyclical_Encoder import Cyclical_Encoder
 from Find_Significant_Categories import Find_Significant_Categories
 from Adversarial_Validator import Adversarial_Validator
 from FeatureImportanceVisualizer import FeatureImportanceVisualizer
+from notify.Mac_Send_Notification import Mac_Send_Notification
+from notify.Windows_Send_Notification import Windows_Send_Notification
 ```
