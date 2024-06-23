@@ -6,7 +6,7 @@ This document explains the following two points:
 
 - **Slack botのセットアップ**
   
-- **Webhook URLを自分のPCの環境変数に設定し、クレデンシャルを漏洩させないようにする**
+- **発行されたWebhook URLを環境変数（VScode）に設定する**
 
 
 ## Slack apiを用いた、Slack Botのセットアップ
@@ -48,3 +48,15 @@ This document explains the following two points:
 ![image](https://github.com/Itsuki-2822/ML_Utilities/assets/135577168/b3375ce2-5c53-4a83-9f88-8cb7308f1ee1)
 
 お疲れ様でした。
+
+## 発行されたWebhook URLを環境変数（VScode）に設定する
+1. `.env`ファイルの作成:
+- プロジェクトのルートディレクトリに `.env` ファイルを作成します。このファイルに環境変数を設定します。
+- `.env` ファイルに以下の内容を追加します（実際のWebhook URLに置き換えてください）：
+  ```bash
+  SLACK_WEBHOOK_URL= 'your_webhook_url'
+  ```
+2. `settings.json` の編集
+- コマンドパレットを開く
+  - Mac（command + shift + P）
+  - Windows（Ctrl + Shift + P）
