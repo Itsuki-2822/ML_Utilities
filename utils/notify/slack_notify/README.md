@@ -50,13 +50,19 @@ This document explains the following two points:
 お疲れ様でした。
 
 ## 発行されたWebhook URLを環境変数（VScode）に設定する
-1. `.env`ファイルの作成:
+### 1. `.env`ファイルの作成:
 - プロジェクトのルートディレクトリに `.env` ファイルを作成します。このファイルに環境変数を設定します。
-- `.env` ファイルに以下の内容を追加します（実際のWebhook URLに置き換えてください）：
+- `.env` ファイルに以下の内容を追加する（実際のWebhook URLに置き換えて）：
   ```bash
   SLACK_WEBHOOK_URL= 'your_webhook_url'
   ```
-2. `settings.json` の編集
+### 2. `settings.json` の編集
 - コマンドパレットを開く
   - Mac（command + shift + P）
   - Windows（Ctrl + Shift + P）
+- 検索Windowで「setting」を入力
+- `Preferences: Open Settings(JSON)`を選択
+  - `settings.json` に以下の設定を追加します。これにより、Python拡張機能が `.env` ファイルを読み込むようになります：
+    ```bash
+    "python.envFile": "${workspaceFolder}/.env"
+    ```
